@@ -90,6 +90,13 @@
             android:title="@string/font_picker_title"
             android:persistent="false" />    
 
+        <ListPreference
+            android:key="switch_styler"
+            android:title="@string/switch_style_title"
+            android:persistent="false"
+            android:entries="@array/switch_style_entries"
+            android:entryValues="@array/switch_style_values" />
+
     <!-- Cross-listed item, if you change this, also change it in power_usage_summary.xml -->
     <com.android.settings.TimeoutListPreference
         android:key="screen_timeout"
